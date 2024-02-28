@@ -1,0 +1,13 @@
+"use strict";
+let locations = ['America', 'London', 'Madinah', 'Kashmir', 'Turkey'];
+console.log(`Original: ${locations}`);
+let locations_asc_sorted = [...locations].sort();
+console.log(`Alphabetical order:  ${locations_asc_sorted}`);
+console.log(`Original: ${locations}`);
+let locations_desc_sorted = [...locations_asc_sorted].reverse();
+console.log(`Reverse alphabetical order:  ${locations_desc_sorted}`);
+console.log(`Original: ${locations}`);
+console.log(`Original reverse: ${locations.reverse()}`);
+console.log(`Original: ${locations.reverse()}`);
+console.log(`Original alphabetical order: ${locations.sort()}`);
+console.log(`Original reverse alphabetical order: ${locations.reverse()}`);
