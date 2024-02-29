@@ -1,0 +1,19 @@
+"use strict";
+
+let user_1 = {
+    id: 1,
+    name: "Salman",
+    hobby: "Watching movies",
+    is_married: true
+};
+
+let user_2 = {
+    id: 2,
+    name: "Marry",
+    hobby: "Cooking",
+    is_married: false
+};
+
+console.log(user_1);
+
+console.log(user_2);
